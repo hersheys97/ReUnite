@@ -1,0 +1,60 @@
+<html>
+    <body>
+        <table>
+        <form action="action.html" method="get">
+		<tr>
+			<td>Firstname</td><td>Lastname</td>
+		</tr>
+		<tr>
+			<td><input type="text" name="f_firstname"></td><td><input type="text" name="f_lastname"></td>
+		</tr>
+		<tr>
+			<td>Approx Age</td><td>Approx Height</td>
+		</tr>
+		<tr>	
+			<td><input type="number" name="f_age"></td><td><input type="number" name="f_height"></td>
+		</tr>
+        <tr>
+                <td>Address Line 1</td>
+        </tr>
+        <tr>
+            <td><input type="text" name="f_addressline1"></td>
+        </tr>
+        <tr>
+                <td>Address Line 2</td>
+        </tr>
+        <tr>
+            <td><input type="text" name="f_addressline2"></td>
+        </tr>
+        
+		<tr>
+			<td>
+			Sports:
+			</td>
+			<td>
+				<select name="sports" size="5" multiples>
+						<option value="No" selected> No Selection</option>
+					<optgroup label="Indoor">	
+						<option value="football"> Football</option>
+						<option value="basketball"> Basketball</option>
+						<option value="cricket"> Cricket </option>
+					</optgroup>
+					<optgroup label="Outdoor">
+						<option value="skating"> Skating</option>
+						<option value="vollyball"> Vollyball</option>
+						<option value="handball"> Handball</option>
+					</optgroup>
+                </select>
+			</td>
+		</tr>
+		<tr>	
+			<td>
+				<input type="submit" name="submit" value="Submit">
+			</td>
+			<td>
+				<input type="reset" name="reset" value="Reset">
+			</td>
+		</tr>
+    </table>
+    </body>
+</html>
